@@ -79,8 +79,8 @@ export default function UserReports() {
               }
             />
           }
-          name='Earnings'
-          value='$350.4'
+          name='Interacciones totales'
+          value='3900'
         />
         <MiniStatistics
           startContent={
@@ -89,14 +89,15 @@ export default function UserReports() {
               h='56px'
               bg={boxBg}
               icon={
-                <Icon w='32px' h='32px' as={MdAttachMoney} color={brandColor} />
+                <Icon w='32px' h='32px' as={MdBarChart} color={brandColor} />
               }
             />
           }
-          name='Spend this month'
-          value='$642.39'
+          growth='+10%'
+          name='Sensores respondidos'
+          value='642'
         />
-        <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
+        <MiniStatistics growth='+23%' name='Usuarios activos' value='520' />
         <MiniStatistics
           endContent={
             <Flex me='-16px' mt='10px'>
@@ -115,8 +116,8 @@ export default function UserReports() {
               </Select>
             </Flex>
           }
-          name='Your balance'
-          value='$1,000'
+          name='Indice cultura global'
+          value='74/100'
         />
         <MiniStatistics
           startContent={
